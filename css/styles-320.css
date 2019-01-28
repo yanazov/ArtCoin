@@ -1,0 +1,582 @@
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    .intro{
+        height: 520px;
+    }
+    .intro .menu{
+        position: absolute;
+        left: 0;
+        background: rgba(41, 41, 41, 0.95);
+        width: 100%;
+        height: 520px;
+        top: -47px;
+        z-index: -1;
+        opacity: 0;
+        display: block;
+        padding-top: 127px;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .intro .logo{
+        width: 100px;
+        margin-left: -50px;
+        margin-top: 15px;
+        height: 51px;
+    }
+    .banknote{
+        display: none;
+    }
+    .intro .caption{
+        opacity: 1;
+        font-size: 48px;
+        margin-top: 10px;
+        line-height: 50px;
+    }
+    .intro .caption span{
+        display: block;
+        position: relative;
+        margin-top: 17px;
+        font-size: 24px;
+    }
+    .intro .txt {
+        opacity: 1;
+        margin-top: 20px;
+    }
+    .intro .to-next{
+        opacity: 1;
+        margin-top: 42px;
+    }
+    .helper{
+        display: none !important;
+    }
+    #step-2 {
+        position: relative;
+        top: 0;
+        height: 470px;
+    }
+    .fon-coin {
+        left: 50%;
+        margin-left: -145px;
+        width: 290px;
+        height: 145px;
+    }
+    .label-width {
+        top: -28px;
+    }
+    .svg-path-brush{
+        display: none;
+    }
+    .fon-coin-768{
+        background: url('../img/fon-coin768.png') 1px 1px no-repeat;
+        background-size: cover;
+    }
+    .toolbar{
+        opacity: 1;
+        left: 226px;
+        top: 33px;
+    }
+    .toolbar {
+        width: 41px;
+        height: 135px;
+    }
+    .toolbar li {
+        height: 40px;
+    }
+    .toolbar:before {
+        width: 41px;
+    }
+    .toolbar .img-brush {
+        width: 25px;
+        height: 21px;
+        fill: #ffffff;
+        margin: 7px 0 0 8px;
+    }
+    .toolbar .icon-zoom {
+        width: 19px;
+        height: 19px;
+        margin: 10px 0 0 10px;
+    }
+    .toolbar .icon-move {
+        width: 19px;
+        height: 19px;
+        margin: 11px 0px 0 10px;
+    }
+    #img-brush {
+        position: absolute;
+        display: block;
+        width: 36px;
+        height: 36px;
+        top: 89px;
+        left: 123px;
+    }
+    #step-2 .ttl-1, #step-2 .txt-1{
+        display: block;
+        opacity: 1;
+    }
+    #step-2 .ttl-1{
+        font-size: 36px;
+        width: 270px;
+        margin: 0 auto;
+    }
+    #step-2 .txt-1{
+        font-size: 16px;
+    }
+    #step-2 .txt-1 br{
+        display: none;
+    }
+    #step-2 .slider{
+        margin-top: -15px;
+    }
+    .nav-tab{
+        text-align: center;
+        font-size: 0;
+        margin-top: 47px;
+    }
+    .nav-tab li{
+        display: inline-block;
+        margin: 0 18px;
+        width: 31px;
+        height: 31px;
+        background: url('../i/fon-number.png') no-repeat;
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'proxima_nova_rg';
+        line-height: 31px;
+        text-align: center;
+        opacity: 0.2;
+        cursor: pointer;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .nav-tab li.active{
+        opacity: 1;
+        cursor: default;
+    }
+    .step-number{
+        margin-top: 48px;
+    }
+    #step-2 .ttl{
+        margin-top: 33px;
+    }
+    .b-info {
+        height: 218px !important;
+    }
+
+    .scr2 .b-info {
+        height: 210px !important;
+    }
+    .scr3 .b-info {
+        height: 215px !important;
+    }
+    .fon-coin {
+        margin-top: 0px;
+    }
+    .label-width, .label-height{
+        display: none;
+    }
+
+
+
+    #step-2{
+       opacity: 0;
+    }
+    #step-2.active{
+       opacity: 1;
+    }
+    .scr2,
+    .scr3{
+        display: block;
+        left: 0;
+    }
+    .scr3 {
+        width: 100%;
+        overflow: hidden;
+        z-index: 10;
+    }
+    .scr2.active,
+    .scr3.active{
+        opacity: 1;
+    }
+    .scr2 .toolbar,
+    .scr3 .toolbar{
+        display: none;
+    }
+    .scr2 .fon-coin-768,
+    .scr3 .fon-coin-768{
+        background: url('../img/fon-coin.png') no-repeat;
+    }
+    .scr2 #img-brush,
+    .scr3 #img-brush{
+        display: none;
+    }
+    .scr2 .left-coin{
+        opacity: 1;
+    }
+    .scr2 .resize-element,
+    .scr3 .resize-element{
+        opacity: 0;
+    }
+    .scr2 .ttl-2,
+    .scr3 .ttl-3{
+        opacity: 1 !important;
+        display: block !important;
+        font-size: 36px;
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 27px;
+    }
+    .scr2 .ttl-2 br{
+        display: none;
+    }
+    .scr2 .txt-2,
+    .scr3 .txt-3{
+        opacity: 1 !important;
+        display: block !important;
+        font-size: 16px;
+        top: 3px;
+    }
+    .scr2 .img-signature{
+        opacity: 1;
+        width: 60px;
+        height: 34px;
+        background-size: cover;
+    }
+    .scr2 .left-coin,
+    .scr2 .img-signature,
+    .scr3 .left-coin,
+    .scr3 .img-signature{
+        opacity: 1;
+    }
+    .scr2 .label-detail1,
+    .scr2 .label-detail2,
+    .scr2 .label-detail3,
+    .scr2 .label-detail4,
+    .scr2 .label-detail5,
+    .scr2 .label-detail6{
+        opacity: 1;
+        background: transparent;
+        display: none;
+    }
+    .label-detail1{
+        display: none;
+    }
+    .scr3 .slick-cloned,
+    .scr3 .example-coin,
+    .scr3 .coin-info,
+    .scr3 .slick-dots{
+        opacity: 1;
+    }
+    .scr3 .slick-dots {
+        bottom: -6px;
+    }
+    .scr3 .fon-coin {
+        box-shadow: none;
+    }
+    .scr3 .coin-info{
+        bottom: -60px;
+        left: 40px;
+    }
+    .scr3 .fon-coin {
+        left: 15px;
+        margin-left: -15px;
+        width: 290px;
+        height: 145px;
+    }
+    .slick-list {
+        height: 600px;
+        padding-top: 0px !important;
+    }
+    #step-2.scr3 .slider {
+        margin-top: 14px;
+    }
+    #empty-block{
+        display: none;
+    }
+    .step3 .ttl{
+        font-size: 36px;
+        margin-top: 10px;
+    }
+    .artcoin-prop .ttl{
+        font-size: 30px;
+    }
+    .artcoin-prop {
+        width: 100%;
+        margin-top: 50px;
+        top: 0;
+        opacity: 1;
+    }
+    .step4{
+        padding-top: 0;
+    }
+    .angle1,
+    .angle2,
+    .angle3,
+    .angle4{
+        display: none !important;
+    }
+    .send-mail{
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+    .send-mail .ttl{
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 87px;
+        font-size: 36px;
+    }
+    .send-mail .txt{
+        opacity: 1;
+        font-size: 24px;
+    }
+    .input-wrap{
+        max-width: 260px;
+    }
+    .send-mail button{
+        margin-top: 43px;
+    }
+    .icon-container {
+        padding-bottom: 86px;
+    }
+    .friends {
+        border: none;
+        margin-top: 51px;
+        width: 100%;
+        background: none;
+    }
+    footer .menu{
+        display: none;
+    }
+    footer {
+        width: 100%;
+        background: #f0efeb;
+        padding-top: 44px;
+        padding-bottom: 36px;
+    }
+    .menu-320{
+        display: block;
+        position: absolute;
+        top: 19px;
+        left: 19px;
+        width: 21px;
+        height: 21px;
+        cursor: pointer;
+    }
+    .menu-close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 17px;
+        height: 17px;
+        cursor: pointer;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .menu-close.active{
+        top: 20px;
+    }
+    .menu.open{
+        position: absolute;
+        background: rgba(41, 41, 41, 0.95);
+        width: 100%;
+        height: 520px;
+        top: -47px;
+        left: 0;
+        z-index: 100;
+        display: block;
+        padding-top: 127px;
+        opacity: 1;
+    }
+    .menu li{
+        font-size: 24px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin: 29px 0;
+        font-family: proxima_nova_lt;
+    }
+    .menu:before{
+        content: '';
+        display: block;
+        width: 32px;
+        height: 0px;
+        border-top: 1px solid #aea282;
+        position: absolute;
+        left: 50%;
+        margin-left: -16px;
+        top: 116px;
+    }
+    .menu:after{
+        content: '';
+        display: block;
+        width: 32px;
+        height: 0px;
+        border-top: 1px solid #aea282;
+        position: absolute;
+        left: 50%;
+        margin-left: -16px;
+        bottom: 116px;
+    }
+    .svg-container{
+        height: 0;
+        overflow: hidden;
+    }
+    .slider{
+        overflow: hidden;
+        width: 100%;
+        height: 240px;
+    }
+    #step-2 .fon-coin {
+        margin-top: 28px;
+    }
+    .scr2 .fon-coin {
+        margin-top: 30px;
+    }
+    .scr2 .slider{
+        height: 203px;
+    }
+    .label-width {
+        left: 105px;
+    }
+    .label-height {
+        right: -40px;
+        top: 58px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .left-coin {
+        width: 64px;
+    }
+    .nominal {
+        font-size: 32px;
+        font-weight: bold;
+        padding-left: 5px;
+        line-height: 20px;
+        margin-top: 11px;
+        opacity: 1;
+    }
+    .word_artcoin {
+        width: 42px;
+        margin-left: 5px;
+        height: 10px;
+        opacity: 1;
+        top: -3px;
+    }
+    .name-autor {
+        font-size: 9px;
+        padding: 0 7px;
+        opacity: 1;
+        margin: 0 0 4px 0;
+    }
+    .iq-code {
+        width: 49px;
+        height: 49px;
+        margin-left: 7px;
+        opacity: 1;
+    }
+    .serial-number {
+        font-size: 6px;
+        margin: 0;
+        padding: 4px 5px;
+        opacity: 1;
+    }
+    .resize-element-11{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        top: -3px;
+        left: -3px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+    .resize-element-12{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        top: -3px;
+        left: 50%;
+        margin-left: -5px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+    .resize-element-13{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        top: -3px;
+        right: -3px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+    .resize-element-31{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        bottom: -3px;
+        left: -3px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+    .resize-element-32{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        bottom: -3px;
+        left: 50%;
+        margin-left: -3px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+    .resize-element-33{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        bottom: -3px;
+        right: -3px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+    .resize-element-21{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        top: 50%;
+        margin-top: -3px;
+        left: -3px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+    .resize-element-23{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        top: 50%;
+        margin-top: -3px;
+        right: -3px;
+        background: #ffffff;
+        border: 1px solid #cbcbcb;
+    }
+
+
+
+
+
+
+
+
+
+
+}
